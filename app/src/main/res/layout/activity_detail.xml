@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/margin_small"
+        android:id="@+id/details_container"
+        >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:layout_width="@dimen/iv_book_width"
+                android:layout_height="@dimen/iv_book_height"
+                android:id="@+id/iv_book"
+                android:padding="8dp"
+                android:transitionName="book_image"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/padding_top">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_book_title"
+                    android:padding="@dimen/margin_small"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:text="Title: "
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_book_date"
+                    android:padding="@dimen/margin_small"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical"
+                    android:text="published Date: "
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_book_publisher"
+                    android:padding="@dimen/margin_small"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical"
+                    android:text="publisher: "
+                    />
+
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/fab"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_margin="@dimen/fab_margin"
+                    android:src="@android:drawable/btn_star_big_off"
+                    android:contentDescription="true"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_small"
+                android:textStyle="bold"
+                android:textSize="@dimen/tv_size"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Description: "
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_book_description"
+                android:padding="@dimen/margin_small"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

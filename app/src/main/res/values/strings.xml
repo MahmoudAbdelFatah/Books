@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Books</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="pref_book_label">Books Display</string>
+    <string name="pref_book_key">books</string>
+
+    <string name="pref_order_default">all_books</string>
+
+    <string name="pref_home_label" translable="true">All Books</string>
+    <string name="pref_home_key" translable="false">all_books</string>
+
+    <string name="pref_favorite_label" translatable="true">Favorite Books</string>
+    <string name="pref_favorite_key" translatable="false">favorite_books</string>
+
+    <string name="error_message">Failed to get results, Please try again.</string>
+
+    <string name="BASE_URL">https://www.googleapis.com/books/v1/volumes?q=time</string>
+    <string name="PRINT_TYPE">printType=books</string>
+    <string name="KEY">AIzaSyBd97lbpG6qb_j1ERREEBOom_Q3IFUMi8k</string>
+
+    <!-- AdMob ad unit IDs -->
+    <string name="banner_home_footer">ca-app-pub-0664570763252260/3326522424</string>
+    <string name="interstitial_full_screen">ca-app-pub-0664570763252260/1769900428</string>
+    <string name="title_activity_detail">DetailActivity</string>
+
+    <string name="no_book">There isn\'t Favorite Books</string>
+    <string name="no_connection">No internet connection</string>
+    <string name="about_app_API">https://api.myjson.com/bins/17ktz9</string>
+    <string name="about_app">about app</string>
+
+    <string name="add_book">Book Added to Favorite books</string>
+    <string name="remove_book">Book Removed from Favorite books :("</string>
+
+
+</resources>
