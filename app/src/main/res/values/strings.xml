@@ -33,5 +33,7 @@
     <string name="add_book">Book Added to Favorite books</string>
     <string name="remove_book">Book Removed from Favorite books :("</string>
 
+    <string name="content_description" translatable="true">favorite button</string>
+    <string name="image" translatable="true">image</string>
 
 </resources>

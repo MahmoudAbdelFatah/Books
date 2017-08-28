@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:id="@+id/widget_layout"
     android:gravity="center_vertical"
-    android:layout_margin="8dp"
+    android:layout_margin="@dimen/layout_margin"
     >
         <TextView
             android:id="@+id/tv_book_name"
@@ -14,9 +14,8 @@
             android:layout_height="wrap_content"
             android:paddingLeft="@dimen/margin_small"
             android:paddingRight="@dimen/margin_small"
-            android:text="bookName"
             android:textColor="@color/maroon"
-            android:textSize="15sp"
+            android:textSize="@dimen/textSize"
             android:textStyle="bold" />
 
 </LinearLayout>

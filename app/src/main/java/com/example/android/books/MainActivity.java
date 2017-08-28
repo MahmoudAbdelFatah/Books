@@ -27,6 +27,7 @@ import com.example.android.books.database.FavoriteBooksContract;
 import com.example.android.books.model.Books;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.firebase.crash.FirebaseCrash;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.koushikdutta.async.future.FutureCallback;
@@ -215,7 +216,7 @@ public class MainActivity extends AppCompatActivity
                     break;
             }
         }catch (Exception e){
-            Log.e("connect", "the internet not working");
+            FirebaseCrash.log(getString(R.string.no_connection));
         }
     }
 
